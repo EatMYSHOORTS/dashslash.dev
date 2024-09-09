@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the SMP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+        .navbar {
+            background-color: #007bff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .title {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        .navbar .nav-links {
+            margin-right: 15px;
+        }
+        .navbar .nav-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 50px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr; /* Each box takes the full row */
+            gap: 30px;
+        }
+        .subdomain-box {
+            background-color: #444;
+            border: 2px solid #333;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            text-align: left;
+            color: white;
+            width: 100%; /* Full width for the row */
+            margin: 0 auto;
+            position: relative;
+        }
+        .subdomain-box img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9; /* Optional: Set this to match common video or widescreen ratios */
+            object-fit: cover;
+            display: block;
+            background-color: #666;
+        }
+        .subdomain-box .content {
+            padding: 20px;
+        }
+        .subdomain-box .content h3 {
+            margin: 0 0 10px 0;
+            font-size: 24px;
+            text-align: center;
+        }
+        .subdomain-box .content p {
+            font-size: 14px;
+            color: #ddd;
+            text-align: center;
+        }
+        .subdomain-box a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="title">dashslash.dev</div>
+        <div class="nav-links">
+            <a href="./index.html">Home</a>
+            <a href="./modpack/index.html">Modpack</a>
+            <a href="./404.html">Untitled</a>
+            <a href="./404.html">Untitled</a>
+            <a href="./about/index.html">About</a>
+            <a href="./contact/index.html">Contact</a>
+        </div>
+  </div>
+    <div class="container">
+        <div class="grid">
+            <div class="subdomain-box">
+                <a href="page1.html">
+                    <img src="https://via.placeholder.com/300" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                    <div class="content">
+                        <h3>Build A Railway!</h3>
+                        <p>Design and create your own railway system in this interactive game.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="subdomain-box">
+                <a href="page2.html">
+                    <img src="https://via.placeholder.com/300" alt="Manage A City!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                    <div class="content">
+                        <h3>Manage A City!</h3>
+                        <p>Take control of a city and manage its resources effectively.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="subdomain-box">
+                <a href="page3.html">
+                    <img src="https://via.placeholder.com/300" alt="Explore The Ocean!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                    <div class="content">
+                        <h3>Explore The Ocean!</h3>
+                        <p>Discover the wonders of the deep sea in this underwater adventure.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="subdomain-box">
+                <a href="page4.html">
+                    <img src="https://via.placeholder.com/300" alt="Conquer Space!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                    <div class="content">
+                        <h3>Conquer Space!</h3>
+                        <p>Lead your fleet in a quest to dominate the galaxy.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
