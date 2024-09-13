@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html> 
+     <head>
+        <!--below this code comment is probably the title tag-->
+         <title>Season 1 Modlist</title>
+         <style>
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+        .navbar {
+            background-color: #007bff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .title {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        .navbar .nav-links {
+            margin-right: 15px;
+        }
+        .navbar .nav-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+         </style>
+         </head>
+    <body>
+     <div class="navbar">
+          <div class="title">dashslash.dev</div>
+          <div class="nav-links">
+              <a href="./index.html">Home</a>
+              <a href="./modpack/index.html">Modpack</a>
+              <a href="./404.html">Untitled</a>
+              <a href="./seasons_downloads/index.html">Extras</a>
+              <a href="./about/index.html">About</a>
+              <a href="./contact/index.html">Contact</a>
+          </div>
+    </div>
+    <h3>  Mod List: </h3>
+
+    <h3>  Controllable: adds the ability to use a controller</h3>
+        
+    <h3>   Food Expansion: Self Explanitory</h3>
+        
+    <h3>   Model Creator App: a model editor App for Laptops on the MrCrayfish Device Mod</h3>
+        
+    <h3>   Security Craft: adds security to your bases inculding security Cameras</h3>
+        
+    <h3>    MrCrayfish's Furniture Mod: Adds Furniture to your world</h3>
+        
+    <h3>    MrCrayfish's Vehicle Mod: adds Vehciles to your world/server</h3>
+        
+    <h3>    MrCrayfish's Device Mod: adds electronics and stuff to your World</h3>
+        
+    <h3>   wifi mod aka MrCrayfish's Light Switch Mod: Adds the ability to turn on/off light switches with an app in the laptop using Ethernet and Electricity; (do not update as it will not work without it)</h3>
+        
+    <h3>  Bubble Burst: a drawing App for laptops on the MrCrayfish's Device Mod</h3>
+        
+    <h3>  Backpacked: a mod that adds wearable working backpacks for storage</h3>
+        
+    <h3>  Macaw's Bridges: add proper bridges to Minecraft</h3>
+        
+    <h3>  Macaw's Doors: Add more doors to minecraft</h3>
+        
+    <h3>  Macaw's Windows: add more window types</h3>
+        
+    <h3>  Macaw's Fences and Walls: adds more Fences and Walls</h3>
+        
+    <h3>   Macaw's Trapdoors: Adds more trapdoors to the game</h3>
+        
+    <h3>  Just Enough Items (JEI): Adds a Menu you can check recipes for</h3>
+        
+    <h3>  Journey Map: Adds a Minimap to the game and online via a localhost</h3>
+        
+    <h3>  Obfuscate: an API for MrCrayfish's Mods</h3>
+    </body>   
+</html>
